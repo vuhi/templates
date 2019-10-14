@@ -29,6 +29,34 @@ body {
   border: 1px solid gold;
 }
 
+.body .container {
+  background: rgba(255, 255, 255, 0.137);
+  padding: 40px;
+  margin-top: 50px;
+  border-radius: 3px;
+}
+
+.wel-come {
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: rgb(255, 255, 255);  
+}
+
+.quote-l, .quote-r {
+  position: absolute;
+  top: 0;
+  font-size: 12px !important;
+}
+
+.quote-l {
+  left: 0;
+}
+
+.quote-r {
+  right: 0;
+}
+
 .search-wrapper {
   position: relative;
 }
